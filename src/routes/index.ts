@@ -6,8 +6,8 @@ app.get('/', async c => {
     return c.json({
         name: c.env['SERVICE_NAME']!,
         version: c.env['VERSION']!,
-        repo: 'https://github.com/Cnily03/cf-worker-mirrors',
-        author: 'Cnily03',
+        repo: 'https://github.com/lijunjie2232/gr_m',
+        author: 'git@Cnily03',
     }, 200)
 })
 
