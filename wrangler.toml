@@ -10,7 +10,7 @@ local_protocol = "http"
 
 [vars]
 VERSION = "2.1.0"
-SERVICE_NAME = "gr_m"
+SERVICE_NAME = "grm"
 DOMAINS = ["batchnorm.dpdns.org"]
 FORBID_HTML = true
 
@@ -20,7 +20,7 @@ name = "mirrors"
 
 [env.development.vars]
 VERSION = "2.1.0"
-SERVICE_NAME = "gr_m"
+SERVICE_NAME = "grm"
 DOMAINS = ["batchnorm.dpdns.org"]
 FORBID_HTML = true
 
@@ -31,7 +31,7 @@ minify = true
 
 [env.production.vars]
 VERSION = "2.1.0"
-SERVICE_NAME = "gr_m"
+SERVICE_NAME = "grm"
 DOMAINS = ["batchnorm.dpdns.org"]
 FORBID_HTML = true
 
