@@ -11,7 +11,7 @@ local_protocol = "http"
 [vars]
 VERSION = "2.1.0"
 SERVICE_NAME = "grm"
-DOMAINS = ["batchnorm.dpdns.org"]
+DOMAINS = ["grm.batchnorm.dpdns.org"]
 FORBID_HTML = true
 
 # Development delpoyment
@@ -21,7 +21,7 @@ name = "grm"
 [env.development.vars]
 VERSION = "2.1.0"
 SERVICE_NAME = "grm"
-DOMAINS = ["batchnorm.dpdns.org"]
+DOMAINS = ["grm.batchnorm.dpdns.org"]
 FORBID_HTML = true
 
 # Production deployment
@@ -32,6 +32,6 @@ minify = true
 [env.production.vars]
 VERSION = "2.1.0"
 SERVICE_NAME = "grm"
-DOMAINS = ["batchnorm.dpdns.org"]
+DOMAINS = ["grm.batchnorm.dpdns.org"]
 FORBID_HTML = true
 
