@@ -20,7 +20,7 @@ name = "mirrors"
 
 [env.development.vars]
 VERSION = "2.1.0"
-SERVICE_NAME = "cf-worker-mirrors"
+SERVICE_NAME = "gr_m"
 DOMAINS = []
 FORBID_HTML = true
 
@@ -31,7 +31,7 @@ minify = true
 
 [env.production.vars]
 VERSION = "2.1.0"
-SERVICE_NAME = "cf-worker-mirrors"
+SERVICE_NAME = "gr_m"
 DOMAINS = []
 FORBID_HTML = true
 
