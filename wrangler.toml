@@ -16,7 +16,7 @@ FORBID_HTML = true
 
 # Development delpoyment
 [env.development]
-name = "mirrors"
+name = "grm"
 
 [env.development.vars]
 VERSION = "2.1.0"
@@ -26,7 +26,7 @@ FORBID_HTML = true
 
 # Production deployment
 [env.production]
-name = "mirrors"
+name = "grm"
 minify = true
 
 [env.production.vars]
